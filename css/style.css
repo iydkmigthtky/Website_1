@@ -1,0 +1,130 @@
+/* Основной фон и шрифты для всего документа */
+body {
+    background-color: #FFF0F5; /* нежный лавандово-розовый фон */
+    color: #5C3317; /* тёмно-коричневый цвет текста */
+    font-family: 'Comic Sans MS', 'Segoe UI', cursive; /* милый шрифт */
+    margin: 0;
+    padding: 0;
+}
+
+/* Основной контейнер */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #8B4789; /* фиолетовый цвет заголовков */
+    text-align: center;
+}
+
+/* Панель навигации */
+.navbar {
+    border-bottom: 2px solid #DDA0DD; /* нежная фиолетовая граница */
+}
+
+/* Отступ справа и ширина логотипа */
+.me-2 {
+    width: 5%;
+}
+
+/* Изображения (котики) */
+.hacker-img, .cat-img {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid #DDA0DD; /* фиолетовая рамка */
+    border-radius: 15px; /* скруглённые углы */
+    box-shadow: 0 0 15px #DDA0DD; /* фиолетовое свечение */
+}
+
+/* Блок истории */
+.story-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #F5E6FA; /* светло-фиолетовый фон блока */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Текст истории */
+.story-text {
+    max-width: 50%;
+    text-align: left;
+    color: #6B4226; /* коричневый текст */
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Основная кнопка */
+.btn-primary {
+    background-color: #BA55D3; /* фиолетовый фон кнопки */
+    border: none;
+    color: #FFF0F5; /* светлый текст */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px; /* скруглённая кнопка */
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #9370DB; /* более светлый фиолетовый при наведении */
+    transform: scale(1.05); /* чуть увеличивается */
+}
+
+/* Поля ввода текста */
+.hacker-input, .form-control {
+    background-color: #FFF0F5; /* нежный фон полей */
+    border: 2px solid #DDA0DD; /* фиолетовая рамка */
+    border-radius: 10px;
+    color: #5C3317; /* коричневый текст */
+    padding: 0.5rem;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.hacker-input:focus, .form-control:focus {
+    border-color: #BA55D3; /* ярко-фиолетовая рамка при фокусе */
+    box-shadow: 0 0 8px #DDA0DD; /* фиолетовое свечение */
+    color: #5C3317;
+    outline: none;
+}
+
+/* Группа формы */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Метки полей форм */
+.form-label {
+    color: #8B4789; /* фиолетовый цвет меток */
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Красная кнопка выхода */
+.btn-outline-danger {
+    border-color: #D2691E; /* коричневая граница */
+    color: #D2691E; /* коричневый текст */
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.btn-outline-danger:hover {
+    background-color: #D2691E;
+    color: #FFF0F5;
+}
+
+/* Ссылки */
+a {
+    color: #9370DB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BA55D3;
+    text-decoration: underline;
+}
